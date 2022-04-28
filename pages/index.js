@@ -40,7 +40,7 @@ export async function getStaticProps() {
         description: meetup.description,
       })),
     },
-    revalidate: 10, // this page will be regrenerated after every 10 seconds
+    revalidate: 1, // this page will be regrenerated after every 1 seconds
   };
 
   // getStaticProps is faster than getServerSideProps because you don't request data from backend for every incoming request

@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import NewMeetupForm from "../components/meetups/NewMeetupForm";
+import router from "next/router";
 import Head from "next/head";
 import axios from "axios";
 
